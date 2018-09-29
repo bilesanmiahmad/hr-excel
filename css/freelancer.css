@@ -120,7 +120,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: #2C3E50;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -157,7 +157,7 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #18BC9C;
+    background: #2C3E50;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
@@ -234,7 +234,7 @@ header.masthead h2 {
 .img-info{
   padding: 20px;
   font-family: 'Karla', sans-serif;
-  color: #fff;
+  color: #585858;
 }
 
 .karla-font{
@@ -254,6 +254,10 @@ header.masthead h2 {
   text-align: center;
 }
 
+.service-img{
+  text-align: center;
+}
+
 .portfolio .portfolio-item .portfolio-item-caption {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
@@ -270,21 +274,25 @@ header.masthead h2 {
 }
 
 .ethos{
-  background-color: #BA4D64;
+  background-color: #f0f0f0;
   padding: 15px;
   min-height: 30rem;
 }
 
 .commit{
-  background-color: #20A3B7;
+  background-color: #f0f0f0;
   padding: 15px;
   min-height: 30rem;
 }
 
 .promise{
-  background-color: #1037B6;
+  background-color: #f0f0f0;
   padding: 15px;
   min-height: 30rem;
+}
+
+.text-color{
+  color: #585858;
 }
 
 @media (min-width: 576px) {
@@ -328,6 +336,12 @@ header.masthead h2 {
   }
   .portfolio-modal .portfolio-modal-dialog h2 {
     font-size: 3rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .col-sm-12{
+    text-align: center;
   }
 }
 
@@ -408,11 +422,11 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: #f0f0f0 !important;
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: #fff !important;
 }
 
 .bg-tertiary {
@@ -428,13 +442,13 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #1a252f;
+  border-color: #1a252f;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color: #2C3E50;
+  border-color: #2C3E50;
 }
 
 .btn-secondary {
