@@ -422,7 +422,11 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #073B77 !important;
+  background-color: #f0f0f0 !important;
+}
+
+.bg-menu {
+  background-color: #073B77;
 }
 
 .bg-secondary {
